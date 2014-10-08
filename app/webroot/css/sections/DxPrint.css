@@ -1,0 +1,65 @@
+.blueheadertext {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; background: #00a994 url(/javascript/yui/build/assets/skins/sam/sprite.png) repeat-x left -1400px; color: white;}
+
+.background {BACKGROUND-COLOR: #FFFFFF;}
+
+BODY {BACKGROUND-COLOR: #FFFFFF;}
+
+.btn {FONT-SIZE: 7pt; COLOR: #000000; display: none;}
+
+.tbrBtn {FONT-SIZE: 7pt; COLOR: #000000; display: none;}
+
+.tbrColor {BACKGROUND-COLOR: #00a994;}
+
+.tblHdr {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; FONT-WEIGHT: bold;}
+
+.colTitle {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; FONT-WEIGHT: bold; COLOR: black;}
+
+.rowTitle {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+.cell {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+.cellw {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+.cellwSmall {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+.cellSmall {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+.stepnum {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; FONT-WEIGHT: normal; COLOR: #FFFFFF; BACKGROUND-COLOR: #00a994;}
+
+.title {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 12pt; COLOR: #000000; FONT-WEIGHT: bold;}
+
+.copyright {FONT-FAMILY: Arial, Helvetica; COLOR: #000000; FONT-SIZE: 7pt;}
+
+.help {FONT-FAMILY: Arial, Helvetica; FONT-WEIGHT: normal; FONT-SIZE: 7pt;}
+
+.label {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 8pt; color: #000000;}
+
+.nonPrintinglabel {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; display: none; color: #000000;}
+
+.data {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; color: black;}
+
+.response {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt; color: red;}
+
+.printButton {display: none;}
+
+.checkbox {BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 5pt; color: #000000;}
+
+DIV.menuDIV {position: absolute; visibility: hidden; border: 2px grey outset;}
+
+TABLE.menu {background-color: #CCCCCC;}
+
+TH.menu {}
+
+.menuCell {FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 7pt;}
+
+A.comboBtn {CURSOR: default;}
+
+SELECT.combo {position: absolute; visibility: hidden; border: 2px white inset; CURSOR: default;}
+
+INPUT.combo {}
+
+INPUT.button {visibility: hidden;}
+
+BUTTON {visibility: hidden;}
+
+.pageEnd {page-break-after: always;}

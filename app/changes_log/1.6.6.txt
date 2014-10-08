@@ -1,0 +1,57 @@
+Expand photo management functionalities in patient chart.
+Add missing patient insurance info in SuperBill print.
+Fix load speed of Visit Summary in the encounter.
+Make appointment window X larger for finger touch.
+Fix missing fields in Edit mode of User Accounts.
+Fix Comment column sorting in Medical History page.
+Break the Name column in Search Charts result display into Last Name, First Name.
+Notify user by email if a message is marked "Urgent".
+Allow the practice to show/hide example data.
+Enhance entry to allow one-digit month and day.
+Enhance Print Immunization function in the patient chart.
+Check Emergency Access submenu disappearing issue.
+Sort the entire list in Search Charts before paginating.
+Make the patient header popup in Dashboard adjustable using patient name and display font size setting.
+Fix ' display issue in Document Name (Attachments).
+Quick visit icon - Add btn class for easier touch ability.
+Fix error after pharmacy searching on the Patient Preferences page.
+Patient Portal - Make the date format consistent in Problem List.
+Fix unread message missing.
+Check to see why Emdon labs are not importing.
+Send message to ordering doctor when new lab results arrive.
+Outside labs do not show up
+Check Select and Submit functions in Outside Labs.
+The tickets command needs to restore a standard qa database
+Fix page display issue in Appointments page after sorting by reason.
+Enhance the layouts of ROS/PE template buttons in the encounter.
+Fix incorrect saving of data in Hx when changing Type.
+Menu field moved after choosing menu parts
+Fix missing Surgical History Dates (To field) in Visit Summary (Part 2).
+Add the ability to mark a patient as deleted.
+Rename "Add New" to "Send New Message" for Messages in the patient chart.
+Fix error sending message via Patient Chart > Attachments > Send New.
+iPad time field needs to be longer
+Fix new message popup not displaying correctly in iPad.
+Fix note format in Visit Summary.
+After clicking Save button on the Practice Settings page appears page with notification
+Fix misc errors in Phone Calls section at the Beta site.
+Locations are missing on the Add New Phone Call page
+Fix Webcam not working in Demographics and Account page.
+Fix blank screen issue in lab orders (Dr. Anderson).
+Duplicate procedure note format in Visit Summary.
+Fix status not saving in Procedures.
+Name matching should require a prefix match
+Fix sorting in Dashboard display table.
+Check file uploading in PE page of the encounter.
+Remove CCR in Medication List. No use.
+"Invalid date entered" message appears even when entered correct data at Phone Calls 
+Fix paging elements after paginating Medication table in Meds & Allergy.
+User Options page in Preference, System Settings shows proxy servor error.
+iPad app scroll not working in Assessment
+Check and fix incorrect sorting in display tables in all pages.
+Fix broken Patient Education link in Superbill.
+Superbill print errors
+Remove favorites for e-Rx and e-Labs when setting is Standard
+Check layout of Unmatched Lab Report in iPad.
+Fix Inactive status in Patient Demographics (IE).
+Limit the autocomplete results in Diagnosis field of Assessment to 20.

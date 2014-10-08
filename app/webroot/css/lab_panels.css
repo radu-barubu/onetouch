@@ -1,0 +1,13 @@
+
+table.lab-panels td {
+    padding: 0.5em;
+}
+
+table.lab-panels td.field-name {
+    width: 75px;
+}
+
+table.lab-panels td.field-value {
+    width: 50px;
+    text-align: right;
+}

@@ -1,0 +1,35 @@
+Disallow the sending of message in broadcasting if no one matches the criteria.
+Change notification in Broadcasting section of Messaging.
+Show warning if user has already logged in and is trying to log in from another computer.
+Adjust the column layout in Preferences page to allow font size changes.
+Make [variable] in Letter Template not case sensitive.
+Add a link in tutor mode to turn it off.
+Put close button on pop-up dashboard window.
+Patients > add patient only show relationship-to-guardian as required if guardian is specified.
+Change the design of "Find Patient" to autocomplete.
+Make dashboard visits to update without refreshing entire page.
+Fix display theme issues in Preferences.
+Have patient search info carry over to add new patient screen.
+Enlarge patient's driver's license when you hover over it.
+Fix first image upload hanging at 0%.
+Mark required fields in Emdeon Labs in the patient chart and the encounter.
+Fix Patient DOB not displaying in messaging.
+Fix spelling error in HX Occurrence dropdown.
+Need selected button highlighted for Patient > Charts > select-one > Medical Information > HX.
+Adjust the popup list in PE for better user interface.
+Trim leading and trailing white space for all values in Admin > General > Services page.
+Change the alert message in appointment request used by the patient portal.
+Change MRN generation logic.
+Make sure that the default patient header image is loaded at beta site.
+Provide an encounter link in patient chart for the provider to return to the encounter.
+Enhance the layouts of ROS/PE template buttons in the encounter.
+Fix unread message missing.
+Fix new message popup not displaying correctly in iPad.
+Fix note format in Visit Summary.
+Fix misc errors in Phone Calls section at the Beta site.
+Locations are missing on the Add New Phone Call page
+Fix status not saving in Procedures.
+Name matching should require a prefix match
+Outside labs do not show up
+Check Select and Submit functions in Outside Labs.
+User Options page in Preference, System Settings shows proxy servor error.

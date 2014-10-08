@@ -1,0 +1,19 @@
+Usability - Add arrows to sorting headers.
+Create a form builder for use in Forms section.
+Add back the file download button in Reports > Meaningful Use for iPad.
+Editable library auto submit on blur
+Inbox Timestamp changes to current time in "Sent" field
+Fix layout in Work Schedule (iPad).
+Fix PHP error on production.
+Remove Preview Template button for iPad.
+Change the design of "Find Patient" to autocomplete in Schedule
+Check patient and other user role accessing unauthorized menus.
+Fix frequent very slow response to /encounters/index/task:edit/jquerybubblepopup-theme/azure/ie/middle-left.gif on aimhealth.
+Labs summary page
+DOB not populating in iPad on Guarantor tab
+'No' as  answer for 'Notify Provider ?'  is not saving
+Laterality is not displayed  during editing in Outside Procedure
+Duplicate records on problem list
+Quantity is displayed twice in POC->Supplies
+iPad tutor mode 
+iPad autocomplete not formatting right

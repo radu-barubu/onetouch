@@ -1,0 +1,31 @@
+Immunization table
+Fix invalid date and delete issue in Phone Calls.
+Encrypt user account historical passwords if needed. 
+Fix error found in public health surveillance.
+shell for nextday_schedule gives error
+Change "Patient Name" column to "Letter Template" column in Letters.
+Delete "Patient Name" column and add "Comment" column in Phone Calls.
+Hide Auto Measures graph export button in iPad.
+Change scroll bar in Auto Measures to KL format.
+Sort Refill Summary by date.
+Auto select phone numbers based on Patient Preferences for outgoing calls.
+Add "Send Selected" and "Manifest" buttons to the display table of Outside Labs.
+Update new message count as part of doOnlineCheck.
+Change the warning text in Superbills.
+Enhance Print Immunization function in the patient chart.
+Add loading swirl to unmatched rx refills.
+Display all allergy reactions in Visit Summary.
+Make test patient setting and last name more clear.
+Fix surgical history edit issue.
+Rename Dosespot IDs to their original names to avoid confusion.
+Fix Select Photo issue in Firefox 12.
+Add lazymodel loading feature to cakePHP to speed up model loading.
+Check and fix 'Other' not displaying in drop-down list in PE tab in IE.
+Sending a message should stay on the inbox tab
+Fix autocomplete not working in POC -> Injections.
+Sort the patient name (Initial Last) in Dasboard in correct order. 
+Rename "Add New" to "Send New Message" for Messages in the patient chart.
+After clicking Save button on the Practice Settings page appears page with notification
+Error after clicking Telephone Encounter on the Add New Phone Call page
+Check to see why Emdon labs are not importing.
+Fix blank screen issue in lab orders (Dr. Anderson).

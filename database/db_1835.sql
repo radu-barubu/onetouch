@@ -1,0 +1,1 @@
+ALTER TABLE `schedule_calendars` ADD `kareo_cal_id` INT NULL DEFAULT NULL AFTER `modified_timestamp`;

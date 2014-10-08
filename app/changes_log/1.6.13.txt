@@ -1,0 +1,11 @@
+Editable library auto submit on blur
+Update appointment request message when scheduling it and replying to it.
+Sort the patient name (Initial Last) in Dashboard in correct order. 
+Phone calls UI
+Fix Time sorting in Inbox.
+Labs summary page
+Support Nuance/Dragon 1.3 for Web App
+UserVoice feature to Help menu
+Patient portal forms display
+Encounter -> POC Items Not Saving
+Keep track of who submitted an online form

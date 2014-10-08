@@ -1,0 +1,15 @@
+e-Labs: speed up new lab orders entry
+Encounter Plan Frequent tests to store all order details
+Dosespot: refills screen not matching up, and overall code improvements
+Letter Templates: improving functionality/features
+Form Builder - add capability to POC procedures area
+Messaging: allow patient to respond and confirm appointments by text & email
+Macros: make select box of available macros so user can see them
+POC: if many items, it's hard to tell which is checked, so CSS color change if activated
+Clinical Reports - add more POC items to search criteria
+Disclosure Records - allow limit Visit Summaries by time in the report download
+Add common complaint feature to more HPI elements
+Assessment: add ability to move them up/down by priority
+Administration - Allow practice to switch from ICD9 to ICD10 or vice versa
+ICD9 to ICD10 converter tool!
+Bug fixes

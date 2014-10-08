@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Nuance SpeechAnywhere Sample ReinitializeVUIForm</title>
+    <link rel="stylesheet" type="text/css" href="css/Demo.css" />
+ 
+    <link rel="stylesheet" type="text/css" href="https://speechanywhere.nuancehdp.com/1.1/css/Nuance.SpeechAnywhere.css" />
+    <script language="javascript" type="text/javascript" src="https://speechanywhere.nuancehdp.com/1.1/scripts/Nuance.SpeechAnywhere.js"></script>         
+
+	<script language="javascript" type="text/javascript">
+	    function NUSA_configure() {
+
+	        NUSA_userId = "aUser";
+	        
+            if (!NUSAI_licenseGuid)
+	            NUSAI_licenseGuid = "6852c262-ba6d-466b-87d0-15672e79bb67";
+	        if (!NUSAI_partnerGuid)
+	            NUSAI_partnerGuid = "4a47ee29-553f-4576-82ef-eeffb3695efe";
+	    
+	        NUSA_applicationName = "Sample_ReinitializeVUIForm";
+
+            // optional - if not set, the control will be inserted as first child of the BODY element
+	        NUSA_container = "divMain";
+
+	    }
+	    function onBtAddField() {
+            var newRow = document.createElement("tr");
+            var firstCol = document.createElement("TD");
+            var secondCol = document.createElement("TD");
+            firstCol.setAttribute("class", "tdHeader"); 
+            secondCol.innerHTML = "<textarea class='areaNotes'></textarea>";
+            newRow.appendChild(firstCol);
+            newRow.appendChild(secondCol);
+            document.getElementById("noteTable").insertBefore(newRow, document.getElementById("addBefore"));
+
+	        NUSA_reinitializeVuiForm();
+	    }
+	</script>	   
+
+</head>
+<body>
+    <div>
+  
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" id="header_holder">
+            <tr>
+                <td nowrap="nowrap" width="100"><img src="images/Nuance-web-logo.gif" width="90" height="64" alt="Nuance" border="0"/></td>
+                <td nowrap="nowrap" valign="bottom" align="left" style="padding:7px;padding-left:10px"><font size=4><strong>Nuance Healthcare</strong></font><br/><font size="2"><strong>Nuance SpeechAnywhere Browser Edition</strong></font></td>
+                <td valign="bottom" align="right"><img src="images/tagline.gif" width="300" height="64" alt="The experience speaks for itself" border="0"/></td>
+            </tr>
+        </table>
+
+        
+        <div id="divMain" class="divMain">            
+            <hr  style="clear:left"/>
+            <h1>Report</h1>
+            <p></p>
+            <table style="width: 100%;">
+              <tbody id="noteTable">
+                <tr>
+                    <td class="tdHeader">Procedure:</td>
+                    <td><input type="text" class="tdInput" data-nusa-concept-name="procedure"/></td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Clinical Findings:</td>
+                    <td><textarea class="areaNotes" data-nusa-concept-name="clinical findings"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Findings:</td>
+                    <td><textarea class="areaNotes" data-nusa-concept-name="findings"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Impression:</td>
+                    <td><textarea class="areaNotes" data-nusa-concept-name="impression"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Plan:</td>
+                    <td><textarea class="areaNotes" data-nusa-concept-name="plan"></textarea></td>
+                </tr>
+                <tr id="addBefore">
+                    <td><input id="btAddField" type="button" value="Add field" onclick="onBtAddField()"/></td>
+                </tr>
+              </tbody>
+            </table>
+            
+        </div>
+        <span class="classCopyright">"Copyright 2011 Nuance Communications, Inc. All rights reserved." </span>
+        </div>
+</body>
+</html>

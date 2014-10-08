@@ -1,0 +1,1 @@
+ALTER TABLE `encounter_physical_exam` ADD `comments` VARCHAR( 50000 ) NOT NULL AFTER `template_id` ;

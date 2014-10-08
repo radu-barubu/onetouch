@@ -1,0 +1,27 @@
+Error apears when trying to send a fax
+Check Doespot error messge in Allergies page.
+Expand photo management functionalities in patient chart.
+Improve the use of letter template in Administration and patient chart.
+Fix the layout of "You have a new message" box in Dashboard.
+Enlarge the Add Appointment input box in Schedule.
+Spread out previous/next arrows in Dashboard.
+Wrong dropdown list at Notify provider field at Messaging->Phone Calls->Add new
+if ROS selected, don't print all ROS elements in visit summary
+Fix problems with design at Encounters->HPI page at iPad app
+Grey out patient field in Edit of Phone Calls and add a link to patient chart.
+Create ability to copy/duplicate templates (PE & ROS).
+Do the am/pm selector matching automatically when switching appointment time.
+Get "Forgot Login?" to work as intended. 
+Allow the System Admin to switch between production and staging/test environments for Doespot.
+summary tab -> past visits -> visit summary window problem
+Move Help > Forms to Administration and Dashboards.
+Fix any bug found in Guarantor page.
+Remove comma in pagination for all display tables.
+Wrong appearing of "Attention: You are already logged in from another location" message
+Remove searching on middle name in Faxes.
+Apply required field to Document field in Send New Fax.
+Show only Active meds in the medication section of Visit Summary.
+Disallow Practice Admins to remove their own access to Users section. Let them have full access when Emergency Access is turned on.
+Add asterisk (*) to Emergency Access page.
+Free text not working in Plan tab
+Show new ordered dosespot meds in visit summary even if no other plan items are entered

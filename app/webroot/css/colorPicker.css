@@ -1,0 +1,32 @@
+div.colorPicker-picker {
+  height: 32px;
+  width: 32px;
+  padding: 0 !important;
+  border: 1px solid #ccc;
+  background: url(../img/jpicker/color_picker_bg.png) no-repeat top right;
+  cursor: pointer;
+  line-height: 1px;
+  margin-top: 0px;
+}
+
+div.colorPicker-palette {
+  width: 810px;
+  position: absolute;
+  border: 1px solid #598FEF;
+  background-color: #ffffff;
+  padding: 2px;
+  z-index: 1000;
+}
+  div.colorPicker_hexWrap {width: 100%; float:left; display: none; }
+  div.colorPicker_hexWrap label {font-size: 95%; color: #2F2F2F; margin: 5px 2px; width: 25%}
+  div.colorPicker_hexWrap input {margin: 5px 2px; padding: 0; font-size: 95%; border: 1px solid #000; width: 65%; }
+
+div.colorPicker-swatch {
+  height: 36px;
+  width: 36px;
+  border: 1px solid #000;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+}

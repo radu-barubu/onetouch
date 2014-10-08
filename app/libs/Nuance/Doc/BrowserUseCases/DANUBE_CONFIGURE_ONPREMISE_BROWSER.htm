@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1097" MadCap:lastWidth="651">
+    <head><title>
+			Nuance SpeechAnywhere (Browser edition): Configuring Nuance SpeechAnywhere for on-premise deployment
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere"><a href="../BrowserIntroduction/DANUBE_WELCOME_BROWSER.htm"><img src="../Resources/SpeechAnywhere_logo.png" /></a>
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next"><a href="../BrowserIntroduction/DANUBE_MICROPHONE_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_DYNAMIC_GUI_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1>Configuring Nuance SpeechAnywhere for on-premise deployment</h1>
+        <p>To configure Nuance SpeechAnywhere clients to connect to the Nuance SpeechAnywhere Server set up within your organization’s network, you must pass the server URL and resource URL to the client before opening a client session. You can use the <code>NUSA_ServerURL</code> cookie and <code>NUSA_ResourceURL</code> cookie to do this. Make sure that you know the URL of the Nuance SpeechAnywhere Server. For more information about configuring a Nuance SpeechAnywhere Server, see the Nuance SpeechAnywhere Administration Guide.</p>
+        <p>The URL you pass to the Nuance SpeechAnywhere client consists of the server URL and the additional query string <code>mode=1</code>. If you do not pass the query string, the server will reject the connection attempt.</p>
+        <p class="compact">For example:</p>
+        <p class="compact2">Nuance SpeechAnywhere Server URL: https://your.server.com:1234</p>
+        <p class="indent2">URL passed to the client: https://your.server.com:1234/?mode=1</p>
+        <p>The resource URL should point to the server and location where the Nuance SpeechAnywhere browser files are hosted (css, script, etc.).</p>
+        <h2>Prerequisites</h2>
+        <p>The Nuance SpeechAnywhere Server is installed and configured.</p>
+        <h2>Procedure</h2>
+        <p>To connect your clients to the Nuance SpeechAnywhere Server, set the <code>NUSA_ServerURL</code> cookie according to the Nuance SpeechAnywhere Server URL and add the query string <code>mode=1</code>.</p>
+        <p>For example: <code>NUSA_ServerURL=https://&lt;your.server.com&gt;:1234/?mode=1</code></p>
+        <p>To reference the Nuance SpeechAnywhere resources, set the <code>NUSA_ResourceURL</code> cookie according to the web server hosting Nuance SpeechAnywhere.</p>
+        <p>For example: <code>NUSA_ResourceURL=https://&lt;your.server.com&gt;</code></p>
+        <p>Then continue speech-enabling your web pages, see. <a href="DANUBE_SPEECH_ENABLE_BROWSER.htm">Speech-enabling your web browser application</a>.</p>
+        <div id="navigationBar">
+            <div id="next"><a href="../BrowserIntroduction/DANUBE_MICROPHONE_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_DYNAMIC_GUI_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

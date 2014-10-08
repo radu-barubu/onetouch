@@ -1,0 +1,19 @@
+Usability - Add arrows to sorting headers.
+Visit Summary hot links don't work in App
+Don't auto-select input field for ipad
+Route the user back to display table after saving a new item in Outside Radiology.
+Summary tab -> past visits -> visit summary window problem
+Check the error page that displays in Patient Summary after clicking on patient photo.
+Disable Import previous visit data link if encounter locked or same encounter ID.
+Fix ROS template loading issues.
+Error apears when trying to send a fax
+Fix logo doesn't print in superbill print option.
+Increase size limit of Description field on the Forms page.
+Fix message box text does not stay in the box issue in Ipad.
+Message with patient name, clicking reply removes pt. name
+Superbill Print has error from missing arrow image
+Check PE templates "Show" swirl hangs.
+Print only ACTIVE meds in Meds & Allergy section of the encounter.
+Change all places that say "Reconciliated" to "Reconciled".
+Check ROS Template duplication not working at Prod.
+Fix item count in Problem List display table in encounter Summary.

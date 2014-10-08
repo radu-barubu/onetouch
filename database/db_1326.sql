@@ -1,0 +1,1 @@
+ALTER TABLE `patient_documents` ADD COLUMN `notify_provider_id` INT NULL  AFTER `status` ;

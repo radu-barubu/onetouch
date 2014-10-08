@@ -1,0 +1,92 @@
+body {
+    background-color: #F5F5F5;
+    font-family: LucidaGrande, 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin: 2em;
+}
+
+hr {
+    margin: 2px 10px 0px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+a {
+    color: rgb(68, 140, 203);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    width: 850px;
+    display: block;
+    padding-left: 50%;
+    margin-left: -405px;
+}
+
+.sectionDetail {
+}
+
+
+.sectionDetail p {
+    font-size: 75%;
+    color: rgb(102, 102, 102);
+    margin-bottom: 17px;
+}
+
+.sectionBox {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom-color:  rgb(175, 175, 175);
+    margin: 0.5em 0em 0em 0em;
+    padding: 1em 1em 1em 135px;
+    -webkit-border-radius: 7px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 255, 255)), to(rgb(240, 240, 240)));
+    -webkit-box-shadow: 0em .2em .2em rgb(200, 200, 200);
+}
+
+.sectionBox_icon {
+    position: absolute;
+    left: 50%;
+    margin-left: -380px;
+}
+
+.nuance_logo {
+    position: relative;
+    float: right;
+    margin-top: -15px; 
+    z-index: -1; 
+}
+
+h1 {
+    font-size: 160%;
+	  color:#289728;
+}
+
+h2 {
+    font-size: 110%;
+    margin-bottom: 0px;
+	  color:#289728;
+}
+
+h2 a {
+    color: rgb(40 151 40);
+}
+
+h3 a {
+    color: rgb(26, 124, 182);
+}
+
+h3 {
+    color: rgb(26, 124, 182);
+    font-size: 80%;
+    margin-bottom: 0px;
+}
+
+p {
+    color: rgb(102, 102, 102);
+    font-size: 85%;
+    margin: .25em 0px .5em 0px;
+    line-height: 1.5;
+}

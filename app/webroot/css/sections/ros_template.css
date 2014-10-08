@@ -1,0 +1,26 @@
+.ros_details {
+	display: none;
+}
+.pe_ctrl_area {
+	height: 16px;
+}
+.pe_ctrl_area img {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+	.ignore-editable {
+		display: inline;
+	}
+	.editable {
+		cursor: pointer;
+		padding-left: 18px;
+		background: url(/img/icons/edit.png) no-repeat left top;
+	}
+	
+	.editable-active {
+		background-image: none !important;
+		padding-left: 0px !important;
+	}

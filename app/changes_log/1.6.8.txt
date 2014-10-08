@@ -1,0 +1,26 @@
+Change the design of "Find Patient" to autocomplete.
+Summary tab -> past visits -> visit summary window problem
+Add tool to check network performance.
+Kareo API integration
+email messages format improvements
+Enhance Orders feed page with search, sticky, and messaging tools.
+Performance analysis and optimization
+Allow Specifier's in PE template to have option to be pre-selected when template loads.
+Add search to Orders page in the patient chart.
+Default patient's State field in Demographics to the practice's state in Administration.
+Expand photo management functionalities in PE tab.
+Expand photo management functionalities in patient chart.
+Format the checkbox in Referrals using iPad friendly format.
+Fix unread message missing.
+Check *labs not showing up in Plan, Labs section.
+Quick visit link in pt. chart
+Hide Refill button if system has Electronic- Dosespot
+Fix autocomplete in Relationship of Hx.
+Move and rename "Back" button in the patient chart when linked from the encounter.
+Link to iPad App installation from Safari login page.
+Reset logout timer after any user input
+Incorrect location of the help message on the Assessment page
+Remove unwanted Thumbs.db in the system.
+Make "Reason" a required field in POC area.
+Enhance dropdown list at Notify Provider field in Phone Calls.
+Logo doesn't print in superbill print option 

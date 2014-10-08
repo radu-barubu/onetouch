@@ -1,0 +1,1 @@
+UPDATE system_menus SET menu_action = 'stage_1_report' WHERE system_menus.menu_id =34;

@@ -1,0 +1,1 @@
+ALTER TABLE `practice_encounter_tabs` ADD `hide` TINYINT( 1 ) NOT NULL DEFAULT '0';

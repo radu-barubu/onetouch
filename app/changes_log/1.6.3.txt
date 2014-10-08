@@ -1,0 +1,13 @@
+Patient Portal - Test and fix appointment requests not displayed for after 9 pm.
+Integrate video tutorials into our help UI, instead of using learn.onetouchemr.com
+Notify the user when a provider tries to click open a quick encounter for a deceased patient in Search Charts.
+Fix broadcast messages replication issue.
+Fix Messages link error.
+Fixed iPad app to play tutorial links
+Replace the last swf videos with mp4 for tutor text
+Disallow Inactive, Deceased, and Suspended patients to be used in Calendar.
+Fixed dragon icon on iPad not to show up unless dragon is enabled
+Fix error with Guarantor and Insurance Information.
+Fix error with Surgical History Dates.
+Fix issue with Family History of Mother not showing up in H&P Note (Visit Summary).
+Fix Issue with SOAP note and ROS.

@@ -1,0 +1,1 @@
+ALTER TABLE `form_data` ADD `form_completed_user_id` INT NOT NULL DEFAULT '0';

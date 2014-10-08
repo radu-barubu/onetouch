@@ -1,0 +1,1 @@
+ALTER TABLE  `emdeon_lab_results` CHANGE  `placer_order_number`  `placer_order_number` VARCHAR( 20 ) NOT NULL;

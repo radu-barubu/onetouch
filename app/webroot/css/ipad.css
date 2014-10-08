@@ -1,0 +1,49 @@
+div.actions ul li a, .btn, a.btn  {
+	font-size: 18px !important;
+}
+
+.jspVerticalBar
+{
+	width: 22px;
+}
+
+.jspHorizontalBar
+{
+	width: 22px;
+}
+
+
+.jspVerticalBar .jspArrow
+{
+	height: 22px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	height: 22px;
+}
+
+
+.jspArrowUp
+{
+	background-position: 0 0 !important;
+	background-image: url('images/icons/go_up_rtl.png') !important;	
+}
+
+.jspArrowDown
+{
+	background-position: 0 0 !important;
+	background-image: url('images/icons/go_down_rtl.png') !important;	
+}
+
+.jspArrowLeft
+{
+	background-position: 0 0 !important;
+	background-image: url('images/icons/go_left_rtl.png') !important;	
+}
+
+.jspArrowRight
+{
+	background-position: 0 0 !important;
+	background-image: url('images/icons/go_right_rtl.png') !important;	
+}

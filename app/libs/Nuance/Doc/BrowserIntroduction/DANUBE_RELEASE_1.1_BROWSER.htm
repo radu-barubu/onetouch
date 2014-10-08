@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1130" MadCap:lastWidth="941">
+    <head><title>
+			Nuance SpeechAnywhere (Browser edition): Release Notes for version 1.1
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere"><a href="DANUBE_WELCOME_BROWSER.htm"><img src="../Resources/SpeechAnywhere_logo.png" /></a>
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next">
+            </div>
+            <div id="previous"><a href="DANUBE_SILVERLIGHT_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1><a name="Top"></a>Release Notes for Nuance SpeechAnywhere 1.1</h1>
+        <p>With the release of Nuance SpeechAnywhere 1.1 the server has been switched to the new version.</p>
+        <p>This release includes several fixes. No integration changes are required on your part to access the improvements.</p>
+        <p>For more information on all the features, browse this SDK documentation or see the end user documentation.</p>
+        <h2>Enhancements</h2>
+        <ul style="list-style-type: square;">
+            <li>We now support the HTML5 contenteditable attribute for Microsoft Internet Explorer and Mozilla Firefox browsers to create plain text content.</li>
+            <li> It is now possible to dynamically change the set of speech-enabled controls (for more information, see: NUSA_reinitializeVuiForm).</li>
+            <li>         It is now possible to configure whether Nuance SpeechAnywhere actively speech-enables all controls or you explicitly tag the controls you want speech-enabled (for more information, see: NUSA_enableAll).</li>
+        </ul>
+        <h2><a name="Interface"></a>Interface changes&#160;</h2>
+        <p>Any microphone which can create 16-bit and at least 16 kHz audio data is supported. If your users are using microphones that are not able to create audio data of at least this quality  a message box is displayed; they can use your application but not with speech recognition.</p>
+        <h2>Known issues</h2>
+        <ul style="list-style-type: square;">
+            <li>Microsoft Silverlight known issue: Nuance SpeechAnywhere does not work reliably on Mac OS. Microsoft are considering fixing the problem in an upcoming version of Silverlight.</li>
+            <li>Mozilla Firefox known issue: When the web page is re-loaded in Firefox, recorded text is moved from the field it was originally dictated into to the next field on the page. Mozilla are aware of the problem</li>
+            <li>The Nuance flame in speech-enabled controls is covered when the control has a scroll bar in the following browsers: Microsoft Internet Explorer 8, Google Chrome 9, Mozilla Firefox 3, Apple Safari 5.</li>
+            <li>Sometimes after adding a new text control during recording (via <code>NUSA_reinitializeVuiForm</code>), recognition does not work properly.</li>
+        </ul>
+        <h2>See also</h2>
+        <p class="indent2"><a href="DANUBE_RELEASE_1_SR1_BROWSER.htm">Release Notes for Nuance SpeechAnywhere 1.0 Service Release 1</a>
+        </p>
+        <div id="navigationBar">
+            <div id="next">
+            </div>
+            <div id="previous"><a href="DANUBE_SILVERLIGHT_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

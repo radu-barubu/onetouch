@@ -1,0 +1,1 @@
+ALTER TABLE `encounter_point_of_care` DROP `file_upload`;

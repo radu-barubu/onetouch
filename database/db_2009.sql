@@ -1,0 +1,16 @@
+INSERT INTO `vaccine_list` (`code`, `description`) VALUES
+('90654', 'Flu Vaccine no presev ID'),
+('90655', 'Flu Vaccine no presev 6-35m'),
+('90656', 'Flue Vaccine no presev 3 & >'),
+('90657', 'Flu Vaccine, 6-35 mo, im'),
+('90660', 'Influenza virus vaccine, live, for intranasal use'),
+('90662', 'Flu vacc prsv free inc atig'),
+('Q2034', 'Agriflu (Effective Oct 1, 2012, for dates of service on or after July 1, 2012'),
+('Q2035', 'Afluria'),
+('Q2036', 'Flulaval'),
+('Q2037', 'Fluvirin'),
+('Q2038', 'Fluzone'),
+('Q2039', 'Not otherwise specified (NOS) Flu vaccine'),
+('G008|', 'Administration of influenza virus vaccine'),
+('V0481', 'Influenza'),
+('V06.6', 'Pneumococcus and influenza');

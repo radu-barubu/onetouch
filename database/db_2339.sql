@@ -1,0 +1,1 @@
+update `favorite_diagnosis` SET diagnosis = REPLACE (diagnosis, ',', ' -');

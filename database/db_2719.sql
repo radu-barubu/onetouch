@@ -1,0 +1,9 @@
+ALTER TABLE `practice_settings` ADD COLUMN `macpractice_username`  VARCHAR(40) DEFAULT "OneTouch_ORU" AFTER `macpractice_port` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_out_host`     VARCHAR(50) DEFAULT NULL AFTER `hl7_engine` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_out_port`     VARCHAR(10) DEFAULT NULL AFTER `hl7_sftp_out_host` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_out_username` VARCHAR(40) DEFAULT "OneTouch_DFT" AFTER `hl7_sftp_out_port` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_out_password` VARCHAR(40) DEFAULT NULL AFTER `hl7_sftp_out_username` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_in_host`      VARCHAR(50) DEFAULT NULL AFTER `hl7_sftp_out_password` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_in_port`      VARCHAR(10) DEFAULT NULL AFTER `hl7_sftp_in_host` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_in_username`  VARCHAR(40) DEFAULT "OneTouch_ADTSIU" AFTER `hl7_sftp_in_port` ;
+ALTER TABLE `practice_settings` ADD COLUMN `hl7_sftp_in_password`  VARCHAR(40) DEFAULT NULL AFTER `hl7_sftp_in_username` ;

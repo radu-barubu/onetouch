@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `patient_checkin_notes`;

@@ -1,0 +1,14 @@
+when adding new user, send email confirmation
+Calendar: Recurring Appts
+Superbill: Advanced feature improvements
+Superbill: allow ability for practice to choose which E&M codes are shown
+Superbill: allow ability for practice to choose which ADVANCED codes are shown
+Messaging: allow "reply to" person be editable
+Remove character restrictions in vitals height
+Macros: allow increase to 3 chars, and allow Macros to work in any area of EMR
+Templates: ability to edit the word inline
+History: Allow favorite surgeries to speed up data entry
+Kareo Billing: integration enhancements
+Speed Enhancements
+
+many more, & bug fixes

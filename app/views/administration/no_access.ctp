@@ -1,0 +1,1 @@
+<div id="flashMessage" class="error">Sorry, you have no access to this page.</div>

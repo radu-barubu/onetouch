@@ -1,0 +1,1 @@
+ALTER TABLE `emdeon_favorite_prescriptions` ADD `days_supply` INT( 11 ) NOT NULL DEFAULT '0' AFTER `quantity`;

@@ -1,0 +1,2 @@
+INSERT INTO `system_menus` (`menu_name`, `menu_controller`, `menu_action`, `menu_variation`, `menu_url`, `menu_options`, `menu_group`, `group_options`, `menu_parent`, `menu_inherit`, `menu_show`, `menu_show_roles`, `menu_enable_link`, `system_admin_only`, `modified_timestamp`, `modified_user_id`) VALUES
+('Feature Request', 'help', 'feature', '', '', 'R,NA', 0, '[]', 50, 0, 1, 1, 1, 0, '0000-00-00 00:00:00', 0); 

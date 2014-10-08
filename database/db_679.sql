@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `form_template` (
+`template_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`template_name` VARCHAR( 50 ) NOT NULL DEFAULT '',
+`template_version` INT NOT NULL DEFAULT 0,
+`template_content` VARCHAR( 30000 ) NOT NULL DEFAULT '',
+`created` TIMESTAMP NULL DEFAULT NULL ,
+`modified` TIMESTAMP NOT NULL DEFAULT 0 ON UPDATE CURRENT_TIMESTAMP
+) ; 
+
+CREATE TABLE IF NOT EXISTS `form_data` (
+  `form_data_id` int NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  `form_template_id` int NOT NULL DEFAULT 0,
+  `patient_id` int NOT NULL DEFAULT '0',
+  `form_data` varchar(30000) NOT NULL DEFAULT '',
+  `created` TIMESTAMP NULL DEFAULT NULL,
+  `modified` TIMESTAMP NOT NULL DEFAULT 0 ON UPDATE CURRENT_TIMESTAMP
+);

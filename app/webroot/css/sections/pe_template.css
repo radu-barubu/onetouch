@@ -1,0 +1,86 @@
+.element_text_area {
+	float: left;
+	display: inline;
+	width: 230px;
+}
+.element_label {
+	width: auto;
+	min-width: 115px;
+}
+.element_expand_button_area {
+	float: left;
+	display: inline;
+	text-align: left;
+}
+.subelement_text_area {
+	float: left;
+	display: inline;
+	width: 230px;
+}
+.subelement_label {
+	width: auto;
+	min-width: 115px;
+}
+.observation_text_area {
+	float: left;
+	display: inline;
+	width: 300px;
+}
+.observation_label {
+	min-width: 70px;
+	display: inline-block;
+}
+.observation_expand_button_area {
+	float: left;
+	display: inline;
+	text-align: left;
+}
+.specifier_label {
+	width: auto;
+	min-width: 120px;
+	display: inline-block;
+}
+
+.pe_ctrl_area {
+	height: 16px;
+}
+.pe_ctrl_area img {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.subobservation_text_area {
+	float: left;
+	display: inline;
+	width: 200px;
+}
+
+.label_check_box {
+	margin-left: 1px;
+}
+.chk_normal_selected {
+	float: left;	
+	margin-bottom: 0px;
+}
+
+	.ignore-editable {
+		display: inline;
+	}
+	.editable {
+		cursor: pointer;
+		padding-left: 18px;
+		background: url(/img/icons/edit.png) no-repeat left top;
+	}
+	
+	.editable-active {
+		background-image: none !important;
+		padding-left: 0px !important;
+		
+	}
+	
+	.subobservation_label {
+		min-width: 70px;		
+		display: inline-block;
+	}

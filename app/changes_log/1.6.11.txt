@@ -1,0 +1,17 @@
+Add Telephone Encounter for use by nurses.
+Part information in the Reason field in Manage Appointment  for Visit is not saving, if the reason is very long
+Disallow searching by wrong DOB in Search Charts.
+Centralize MRN management and implement multi-facility configuration for Emdeon services.
+Documents provider name is not saving
+Medical Information: Medical and Surgical History allow the user to save invalid dates
+Refine search for all ICD9 autocomplete search boxes.
+Make the attachment field in Document faxing required.
+Improve loading of lab results display.
+Adjust the layout of User Roles edit page.
+Remove 'Null' text in Type for a patient appointment request.
+Change Dragon voice permissions
+Dont displaying phone numbers whe adding new phone call from patient chart
+Not all fields are displayed for entering data in Outside Radiology
+'Show all' button is displayed in Rx Refills if there are no new refills
+Change ROS/PE template export filename to just be the template name
+Saving of changes is hanging in Outside Procedure

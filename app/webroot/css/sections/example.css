@@ -1,0 +1,40 @@
+.file_upload_area {
+	position: relative; 
+	width: 262px; 
+	height: auto !important
+}
+.file_upload_desc {
+	position: absolute; 
+	top: 0px; 
+	height: 19px; 
+	width: 250px; 
+	text-align: left; 
+	padding: 5px; 
+	overflow: hidden; 
+	color: #000000;
+}
+.progressbar {
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	border-radius: 0px;
+}
+.upload_control_area {
+	position: absolute; 
+	top: 1px; 
+	right: -125px;
+}
+.upload_control_container {
+	position: relative;
+}
+.upload_control_container .btn {
+	float: left; 
+	margin-top: -2px;
+}
+.upload_control_container .upload_control_field {
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+}
+.file_upload_fields_area {
+	padding-top: 13px;
+}

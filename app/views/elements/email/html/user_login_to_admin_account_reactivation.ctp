@@ -1,0 +1,1 @@
+Account for  <?php echo $user->username; ?> has been reactivated.

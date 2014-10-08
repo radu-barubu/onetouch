@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1862" MadCap:lastWidth="909">
+    <head><title>
+			Nuance SpeechAnywhere (Browser edition): Speech-enabling your web browser application
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere"><a href="../BrowserIntroduction/DANUBE_WELCOME_BROWSER.htm"><img src="../Resources/SpeechAnywhere_logo.png" /></a>
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_LANGUAGE_TOPIC_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_OVERVIEW_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1>Speech-enabling your web browser application</h1>
+        <p>By default all &lt;input&gt; and &lt;text area&gt; controls on your web page are speech-enabled.</p>
+        <p>Nuance SpeechAnywhere automatically provides a button to start recording on web pages that are initialized for speech recognition: <img src="../Resources/Mike_button.png" /></p>
+        <p>To change the position or appearance of the record button on your web page, see: <a href="DANUBE_RECORD_BUTTON_BROWSER.htm">Record button</a>.</p>
+        <p class="note"><b>Note:</b> If your application has sections that you do not want to be speech-enabled you can integrate Nuance SpeechAnywhere by only speech-enabling specific controls; see <a href="#EnableSpecificControls">below</a>.</p>
+        <h2>Procedure</h2>
+        <p>To initialize speech recognition for a web page, do the following:</p>
+        <ol>
+            <li>Set the <code>NUSA_Guids</code> cookie according to the partner GUID and license GUID you receive with the license information:</li>
+            <p class="indent2"><code>NUSA_Guids=&lt;license GUID&gt;/&lt;partner GUID&gt;</code>
+            </p>
+            <li>Copy the following into your web page and set the parameters:</li>
+            <p class="compact2"><code>&lt;link rel="stylesheet" type="text/css" href="https://speechanywhere.nuancehdp.com/1.1/css/Nuance.SpeechAnywhere.css" /&gt;</code>
+            </p>
+            <p class="compact2"><code>&lt;script type="text/javascript" src="https://speechanywhere.nuancehdp.com/1.1/scripts/Nuance.SpeechAnywhere.js"&gt;&lt;/script&gt;</code>
+            </p>
+            <p class="compact2"><code>&lt;script language="javascript" type="text/javascript"&gt;</code>
+            </p>
+            <p class="compact2"><code>function NUSA_configure() {</code>
+            </p>
+        </ol>
+        <p class="compact2"><code>NUSA_enableAll = "true";</code> <![CDATA[ ]]></p>
+        <ol>
+            <p class="compact2"><code>NUSA_userId = "&lt;user name&gt;";</code>
+            </p>
+            <p class="compact2"><code>NUSA_applicationName = "&lt;your application name&gt;";</code>
+            </p>
+            <p class="compact2"><code>}</code>
+            </p>
+            <p class="indent2"><code>&lt;/script&gt;</code>
+            </p>
+        </ol>
+        <p>When your web page is loaded it is now capable of speech recognition.</p>
+        <p class="note"><b>Note:</b> Make sure to do this for every web page in your application that you want to be speech-enabled.</p>
+        <h2>Remarks</h2>
+        <p>User names and application names can have a maximum of 75 characters.</p>
+        <h2>Optional parameters</h2>
+        <ul style="list-style-type: square;">
+            <li>You can set specific controls not to be speech-enabled; add the attribute <code>data-nusa-enabled</code> to each of these controls and set its value to "false".</li>
+            <li>You can enable specific controls for named field navigation (using a voice command to move directly to a specific field; for example, <span class="command">medical history</span>); add the attribute <code>data-nusa-concept-name</code> to each of these controls and set its value to the label of the field. This should be a label similar to what the user says when navigating to that field, do not use abbreviations or book title capitalization; for example, <code>data-nusa-concept-name="medical history"</code>.</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <li><a name="FocusColor"></a>By default the speech-enabled control with the speech focus has a light green background. The background remains green while speech recognition processing is ongoing in that control, even if the speech focus is moved to another speech-enabled control.</li>
+        </ul>
+        <p class="indent2">You can customize this style in your stylesheet. Define your own style for the <code>NUSA_focusedElement</code> <![CDATA[ ]]>class. For example:</p>
+        <p class="compact2"><code>.NUSA_focusedElement</code>
+        </p>
+        <p class="compact2"><code>{</code>
+        </p>
+        <p class="compact2"><code>background: #CCFFCC;</code>
+        </p>
+        <p class="compact2"><code>color: #363636;</code>
+        </p>
+        <p class="indent2"><code>}</code>
+        </p>
+        <ul style="list-style-type: square;">
+            <li>In order to ensure that the feedback bubble is properly displayed,  the z-index of the <code>NUSAI_Bubble_Container</code> is set to 9000. You can override this setting in your stylesheet. Set the value as follows:</li>
+        </ul>
+        <p class="compact2"><code>#NUSAI_Bubble_Container{</code>
+        </p>
+        <p class="compact2"><code>z-index: &lt;your value&gt;;</code>
+        </p>
+        <p class="indent2"><code>}</code>
+        </p>
+        <h2><a name="EnableSpecificControls"></a>Speech-enabling only specific controls</h2>
+        <p>To have sections of your application that are not speech-enabled, do the following:</p>
+        <ol>
+            <li>In the <code>NUSA_configure</code> function change the <code>NUSA_enableAll</code> property to "false". None of the controls on your web page are speech-enabled.</li>
+            <li>Add the attribute <code>data-nusa-enabled</code> to  the specific controls that you want to be speech-enabled and set its value to "true".</li>
+        </ol>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_LANGUAGE_TOPIC_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_OVERVIEW_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

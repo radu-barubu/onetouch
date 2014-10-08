@@ -1,0 +1,114 @@
+
+#form-preview {
+	float: left;
+	min-height: 400px;
+	width: 70%;
+	border: 1px #ccc dotted;
+	
+}
+
+#form-preview form{
+	margin: 1em;
+}
+
+
+#form-controls {
+	float: right;
+	min-height: 400px;
+	width: 28%;
+}
+
+button.btn {
+	float: none;
+	margin-bottom: 1em;
+}
+
+#form-controls button.btn {
+	width: 280px;
+	text-align: left;
+}
+
+.dialog td {
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+#selectable-opts {
+	width: 650px;
+}
+
+.field-main {
+	float: left;
+	width: 40%;	
+}
+
+.field-options {
+	float: right;
+	width: 55%;	
+}
+
+div.form-component-element {
+        margin-bottom: 2em;
+        clear: both;
+}
+
+.two-column, div.form-component-element.two-column {
+        width: 45%;
+        margin-right: 1em;
+        float: left;
+        clear: none;
+}
+
+.three-column, div.form-component-element.three-column {
+        width: 30% !important;
+        margin-right: 1em;
+        float: left;
+        clear: none;
+        
+}
+
+.multi-column, div.form-component-element.multi-column {
+        margin-right: 1em;
+        float: left;
+        clear: none;
+}
+
+
+.single-column {
+    clear: both;
+}
+
+.clear {
+        clear: both;
+}
+
+
+.form_signature {
+        width: 750px;
+        border: 1px dotted #000;
+}
+
+.btn img {
+        vertical-align: middle;
+}	
+
+.component-menu {
+        text-align: right;
+}
+
+.component-highlight {
+        background-color: #FAFAB5;
+}
+
+#form-preview .form-component-element {
+  border: 1px dashed #ccc;
+}
+
+.form-component-element input[type=text] {
+    margin: 0;
+}
+
+
+.form-component-snippet{
+    clear: both;
+}        

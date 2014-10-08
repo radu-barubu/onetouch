@@ -1,0 +1,1 @@
+UPDATE `encounter_plan_free_text` SET `diagnosis` = REPLACE(`diagnosis`, '\\\'', '\'') WHERE `diagnosis` LIKE '%\\\'%' ;

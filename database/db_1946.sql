@@ -1,0 +1,1 @@
+ALTER TABLE `emdeon_orders` ADD `patient_comment` VARCHAR( 5000 ) NOT NULL;

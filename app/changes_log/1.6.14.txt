@@ -1,0 +1,4 @@
+Check Webcam capture in Demographics and Account under Preferences.
+Upgrade jQuery Library version
+Online forms need checkboxes to delete, same as printed forms
+visit summary in patient portal should only show Complaint, Assessment & Plan

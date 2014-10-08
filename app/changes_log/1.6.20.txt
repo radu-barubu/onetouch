@@ -1,0 +1,19 @@
+PE tab - added free text boxes
+notify staff - allow multiple recipients
+ability to graph e-lab results
+Enounter Referral improvements
+add "reviewed" to history sections
+direct link to view documents from email notifications
+fax: allow to rename fax documents
+pictures section: practice admin can now delete them
+past visits area now shows open encounters
+add complaint macro table to CC tab
+allow forwarding encounter note even if locked from superbill area
+messaging: add delete option to each message
+macros: allow multiple macros per text box
+scheduling: allow any staff to be assigned appointments
+notify staff: default is now "NO" (instead of "YES")
+allow to go to specific page on paginated results
+add complaint to system if macro built for it
+Visit Summary: format enhancements
+LOTS of speed enhancements

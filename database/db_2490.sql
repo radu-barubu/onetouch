@@ -1,0 +1,4 @@
+ALTER TABLE  `appointment_reminders` ADD  `appointment_time` VARCHAR( 10 ) NULL AFTER  `appointment_call_date`;
+UPDATE  `appointment_setup_details` SET  `message_1` = 'You have a doctor appointment scheduled on [Date] at [Time]. Please call us in advance if you need to reschedule it. Thank you.' WHERE  `appointment_setup_details`.`detail_id` =1;
+UPDATE  `setup_details` SET  `message_1` =  'You have a doctor appointment scheduled on [Date] at [Time]. Please call us in advance if you need to reschedule it. Thank you.' WHERE  `setup_details`.`detail_id` =1;
+UPDATE `appointment_reminders` SET `message` = 'You have a doctor appointment scheduled on [Date] at [Time]. Please call us in advance if you need to reschedule it. Thank you.' WHERE `messaging` = 'Pending' AND `message` like 'You have a doctor appointment scheduled for %'

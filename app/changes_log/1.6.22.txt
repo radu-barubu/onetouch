@@ -1,0 +1,21 @@
+Dashboard: add 'Show All' button for patient schedule
+Disclosure Records: add option to include Visit Summary
+Dosespot: import surescripts Rx history bug fix, and formatting improvements
+Encounter: add option to lock and not post charges to 3rd party billing systems
+Encounters Summary: allow saving of Advanced search filter
+Encounters: allow provider to choose data to import for previous visits
+Favorites: Separate Medical Diagnoses from Medical History
+Form Builder GUI interface v 1.0
+HL7: schedule reminders created from 3rd party vendors
+Messaging: Add 'Fax' button to more areas
+Messaging: add Subject column in listing table
+Patient Chart: Add 'Summary' Tab to Medical chart
+Patient Chart: add Vitals tab
+Patient Portal: add History section to check in process
+Patient Portal: improve Social history section
+Patient Portal: new account registration enhancements
+Patient Search: add Phone Number as search criteria
+POC: improve speed of selecting items if there are many on the page
+Some lab results not showing up in Visit Summary
+Summary page: add option to display Vital signs
+

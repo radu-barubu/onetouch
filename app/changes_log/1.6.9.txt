@@ -1,0 +1,18 @@
+Fix any bug found in Guarantor page.
+Fix text format in PE template screen.
+Remove Plan from Visit Summary if it's deleted from the encounter.
+Fix broken button Import CCD/CCR at add patient page.
+move connection checkers out of the App and to a cron job
+Fix "welcome user" title wrapping
+Replace the current iframe-embedded contact form with Desk support form.
+Allow the user to return to patient chart after using Messages and Phone Calls.
+Remove string of text appearing in Messages.
+Add a loading swirl needed in medications area (Dosespot).
+Add "Widowed" to Marital Status in Demographics.
+Add loading swirls to the lab order page in patient chart and encounter.
+Check attachment link in messages stored the patient chart.
+Auto fill in today's date when a medication is discontinued.
+Check to see why patient photos are not saving in Demographics.
+Apply phone number format to Fax field in Patient Preferences.
+Expand the column width for Severity in HPI.
+Check adding a med issue in the encounter.

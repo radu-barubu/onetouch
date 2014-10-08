@@ -1,0 +1,1 @@
+Update `user_groups` set `group_roles`='6-7' WHERE `group_id`=3 AND `group_roles`='6';

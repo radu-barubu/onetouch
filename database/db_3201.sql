@@ -1,0 +1,1 @@
+UPDATE  `appointment_setup_details` SET  `days_in_advance_1` =  '2' WHERE  `days_in_advance_1` =  '14';

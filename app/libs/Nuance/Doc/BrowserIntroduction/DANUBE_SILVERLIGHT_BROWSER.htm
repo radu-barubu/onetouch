@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1728" MadCap:lastWidth="926">
+    <head><title>
+			Nuance SpeechAnywhere (Browser edition): Microsoft Silverlight
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere"><a href="DANUBE_WELCOME_BROWSER.htm"><img src="../Resources/SpeechAnywhere_logo.png" /></a>
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_RELEASE_1.1_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_TECHNICAL_RESTRICTIONS_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1>Microsoft Silverlight</h1>
+        <p>Nuance SpeechAnywhere (Browser edition) uses a Silverlight-based component for audio recording. It will be compatible with the latest released major version of Silverlight (from version 4 on). For more information, see: <a href="http://www.microsoft.com/silverlight">www.microsoft.com/silverlight</a>.</p>
+        <p>Deployment personnel must be made aware of the requirements and the steps necessary for each server and user.</p>
+        <h2>Installing Silverlight</h2>
+        <p>Silverlight must be installed on every client, for every supported browser and operating system, that is speech-enabled. If it is not, your web page will be usable but speech recognition functionality will not be available. If necessary, the user can install Silverlight directly from their browser (if they have sufficient rights to install software).</p>
+        <p>For more information, see: <a href="http://www.microsoft.com/getsilverlight/get-started/install">www.microsoft.com/getsilverlight/get-started/install</a>.</p>
+        <h3>Updating Silverlight</h3>
+        <ul style="list-style-type: square;">
+            <li>Microsoft Windows and MacOS: To configure update settings via the browser, right-click <img src="../Resources/Mike_button.png" /> and select <b>Silverlight</b>. In the <b>Microsoft Silverlight Configuration</b> dialog box open the <b>Updates</b> tab.</li>
+            <li>Microsoft Windows: To update automatically, use Windows <b>Automatic Updates</b> in the Control Panel.</li>
+        </ul>
+        <h3>Enterprise deployment/update</h3>
+        <p>The Silverlight installers for Microsoft Windows and MacOS can be deployed via appropriate deployment mechanisms available for each platform. For more information, see: 'Silverlight Enterprise Deployment Guide' (Silverlight_Deployment_Guide.docx available from <a href="http://www.microsoft.com/silverlight/resources">www.microsoft.com/silverlight/resources</a>).</p>
+        <h3>Compatibility</h3>
+        <p>Silverlight versions earlier than version 4 do not support audio recording. If an older, unsupported version of Silverlight is installed on a client, the user will be asked to update to a newer version.</p>
+        <p>When Microsoft releases a new version of Silverlight, Nuance will test with this version and update SpeechAnywhere as necessary to retain compatibility.</p>
+        <h2>Configuring Silverlight</h2>
+        <p>Each user must configure microphone access the first time a speech-enabled page from a specific server is loaded; this setting is applied to all pages from this server.</p>
+        <p>If access is not allowed the user is not asked again; the web page is usable but speech recognition functionality will not be available.</p>
+        <p>To change this setting from the browser, right-click <img src="../Resources/Mike_button.png" /> and select <b>Silverlight</b>. In the <b>Microsoft Silverlight Configuration</b> dialog box open the <b>Permissions</b> tab. .</p>
+        <p class="note"><b>Note:</b> Other settings (for example, selecting a preferred audio device) can also be made in this dialog box.</p>
+        <h2><a name="Troubleshooting"></a>Troubleshooting</h2>
+        <ul style="list-style-type: square;">
+            <li>
+                <p>The <b>Microsoft Silverlight Configuration</b> dialog box can also be started as a separate application on both Windows and MacOS (go to the <b>Start</b> menu, <b>All Programs</b>, <b>Microsoft Silverlight</b>).</p>
+            </li>
+            <li>Audio recording can be enabled manually (if the standard dialog box does not appear for a web page):</li>
+        </ul>
+        <p class="compact2">Windows operating systems: Via the Registry Editor (HKEY_CURRENT_USER\Software\AppDataLow\Software\Microsoft\Silverlight\Permissions\...).</p>
+        <p class="compact2">MacOS: Edit the <b>Settings</b> -&gt; <b>Permissions</b> keys in the Silverlight .plist file: <b>LibraryPreferences</b> <![CDATA[ ]]><b>com.microsoft.silverlight.plist</b>:</p>
+        <p class="indent1">
+            <img src="../Resources/Silverlight_plist.png" />
+        </p>
+        <ul style="list-style-type: square;">
+            <li>When an end user opens your application and Silverlight is not installed the <a href="../BrowserUseCases/DANUBE_SPEECH_ENABLE_BROWSER.htm#RecordButtonLocation">recording button</a> is replaced with an <b>Install Silverlight</b> button. Be aware that if you are using the <a href="../BrowserUseCases/DANUBE_SPEECH_ENABLE_BROWSER.htm#RecordButtonImage">standard Nuance recording icon</a> it is smaller than the <b>Install Silverlight</b> button. Make sure to allow enough space for the <b>Install Silverlight</b> button to be properly displayed so that your end users can see the button label properly.</li>
+        </ul>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_RELEASE_1.1_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_TECHNICAL_RESTRICTIONS_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

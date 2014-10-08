@@ -1,0 +1,38 @@
+ Create API for retrieving CCR for a specific patient.
+ Enhance Patient Search screen with last location search and quick visit.
+Allow users to communicate with TechSupport from inside the application.
+Save message draft automatically if the user moves away from Inbox.
+When creating a new message, message field is not empty
+BUG: Calendar, Filter By Provider
+Undefined variable error when creating new user account
+Allow System Admin and Practice Admin to create templates by specialty.
+Guarantor - self screen allows copy of data from Demographics
+Driver's license/ID -  include state
+Undefined variable error on Search Charts page
+Standardize the use of expired password.
+Patient Portal - Work on patient's name in appointment request.
+Patient Portal - Check and fix site view in Guarantor Information.
+Patient Portal - Work on Primary Care Physician field.
+Enhancement Request: Encounter - Point Of Care Selections (formatting better if many items)
+Patient Portal - Diallow the selection of Primary Care Physician
+FEATURE REQUEST: capture source of history/complaint
+Patient Portal - Disallow patient access to System Settings. Allow password change in Demographcis.
+Patient Portal - Check the saving issue for First name and last name fields in Personal Information page.
+Title of user now includes salutation and credentials
+** Bug: Duplicate Patients created if you hit "Add" button twice on Demographics screen
+Patient Portal - Hide "Send Message" link in demographics page.
+Patient Portal - Fix required field length in Demographics page.
+Add asterisk (*) to required fields
+Automate the completion status of medications that have end dates assigned.
+Add link to view documents in Advance Directives.
+Can't fax from documents section
+Change user name to "Advice Nurse" for patient messaging.
+Patient Portal - Define a default duration of appointment when patient requests it.
+Change Status dropdown in Search Charts to multiple checkboxes for multiple searches.
+new electronic RX order error
+New fax screen hangs
+Check and fix refill request issue in electronic prescriptions screen
+Fix POC fatal error.
+chart patient documents faxes can't be viewed
+Enhance the display of encounters to take care of deleted appointments.
+BUG: scheduling providers not set correctly

@@ -1,0 +1,109 @@
+/* MAIN */
+
+
+
+.help { background:#FFFF99; font-style:italic; padding:2px 2px 2px 2px;}
+#header,ol,table { cursor:default; }
+
+
+
+/* SCHEDULE/TABLES */
+
+#schedule  {
+	border-collapse:collapse;
+	border:1px solid #000;
+	width:100%;
+}
+
+#schedule thead th {
+	padding:0.5em;
+	color:#fff; background:#333;
+}
+
+#schedule tbody td,tbody th {
+	border:1px solid #aaa;
+/*	background:#eee;*/
+	line-height:1.5em;
+}
+
+#schedule tbody th {
+	background:#ddd;
+	font-weight:normal;
+	height:50px; width:80px;
+}
+
+#schedule tbody td { text-align:left; vertical-align:top; }
+#schedule thead th,tbody td { width:130px; min-width:110px; }
+
+/* SELECTABLES */
+
+.ui-selecting { background: #FECA40; }
+#schedule .ui-selected { background: #F39814; }
+
+#schedule .ui-approved { background:#009933; border-color:#009933; }
+
+#schedule .ui-unapproved { background:#000000; border-color:#000000; }
+
+#schedule .ui-available { background:#FFFFFF; }
+
+#schedule .ui-unavailable { background:#999999; }
+/* TIME COLUMN */
+
+#schedule input {
+	text-align:center;
+	border:1px solid transparent; outline:none;
+	overflow:hidden;
+	width:95%;
+}
+
+#schedule thead input {
+	font-weight:bold;
+	background:#333; color:#fff;
+}
+
+#schedule thead input:hover,
+#schedule thead input:focus { border-color:#fff; }
+
+#schedule tbody input {
+	background:#ddd;
+	margin:0; padding:0.5em 0;
+}
+
+#schedule tbody input:hover,
+#schedule tbody input:focus {
+	border-color:#333;
+	background:#fff;
+}
+
+/* ENTRIES */
+
+#schedule .entry {
+	display:block; float:left;
+	margin:5px; padding:5px;
+	border:1px solid #aaa;
+	background-color:#eee; color:#333;
+}
+
+#schedule .deletable {
+	cursor:pointer;
+	border-color:#aea;
+	background-color:#dfd; color:#070;	
+}
+
+#schedule .deleting,
+#schedule .deletable:hover {
+	border-color:#eaa;
+	background:#fdd; color:#700;
+}
+
+#schedule th.adding ,
+#schedule td.adding {
+	background-image:url(../resources/bg_aea.png);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+}
+
+#schedule input.adding,
+#schedule input.deleting { border:0; }
+
+

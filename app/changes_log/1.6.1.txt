@@ -1,0 +1,169 @@
+Fax page error
+Page cache problems
+Medications not saving in chart
+Superbill: service level not saved
+Add user features to Unmatched Lab Reports.
+Encounters > ROS gets SQL error
+Add new features to Letter.
+X-Link Integration
+Fix the saving of insurance information in the patient chart.
+Check and fix file paths for files.
+List lab orders in Visit Summary.
+Can't create patient account
+BUG: Scheduling - Drag & Drop Appointment
+Patient portal: Disallow the edit of forms by patient users.
+Patient Portal: Check and fix Outside Labs data.
+Errors on Messaging - Fax
+Fix Messaging Reply bug.
+Alert users if connection with Emdeon, Dosespot, Dragon Medical, and/or Faxage is down.
+Stop changing the status of medication to "Completed" if there is no end date.
+Click "OK" causes page submit
+Visit summary practice address 2
+Quick visits link missing
+Add ability to order labs directly in patient chart.
+Fix page loading issue in Patient Lists.
+Lock encounter bug
+Front Desk user cannot see the reason of the appointment after the patient's request
+Fix ordered tests are not showing up in visit summary.
+OB/GYN history missing from Visit Summary
+OB/GYN history bugs
+Patient Portal: Add OB/GYN history
+Fix Reason updating not been saved in the Dashboard.
+Fix lab status in display table and/or report details page. 
+Add notification for new lab results to Dashboard.
+Add the ability to click on webcam/uploaded photo to zoom/enlarge.
+Created a new page for "Unmatched Rx Refill Requests" in Reports.
+Fix error found in Meds & Allergy page of the encounter.
+PSC hold not carrying to emdeon labs
+Patient Portal: Enhance appointment request calendar.
+Add autocomplete to lab test field in Labs.
+Rename "Practice Management" to "Labs & Rx Refill" in Reports.
+Unable to reply in messaging
+Fix printing issue in Superbill when there is no practice logo.
+Change Print Superbill to Print Icon in Superbill of the encounter.
+Apply table format with alternating colors to all pages.
+Hide Emdeon e-Prescribing before releasing this version.
+Change version number in Help, About page from 1.7 to 1.6.2.
+Remove user instructions in Services as only System Admin can access this page.
+Grant Practice Admin and Office Manager access to all pages in General section (except for Services page).
+PE tab webcam change
+POC pre-filled phrases
+Fix the style for Incoming Fax and Outgoing Fax menu buttons.
+Use the correct style for select boxes in Health Maintenance.
+Display the health maintenance plans enrolled by a patient in the encounter summary and plan.
+Allow users to remove an uploaded image everywhere in the sysetm.
+Disable the use of Enter in "Find Patient" field in Encounters under Patients.
+print doctor name inside calendar box
+Advance Directives & other errors [IE]
+Fix patient account format issue in Demographics.
+"puppy dog" sale features needed
+Visit Summary bug
+global Dragon ENabled/Disabled switch
+Make all sorting in the patient charts sort from latest to oldest.
+Associate Templates to Practice Type for ROS area
+make dashboard popout menus enhanced for touch
+Pass updated patient allergy data to Dosespot FROM our software.
+Display lab order results in Encounter Summary page.
+Integrate electronic fax with Referrals in the Plan section.
+printing improvements for medications in Visit Summary
+Patient Portal - Patient Registration
+BUG: POC Medications not displaying all data in Encounter Summary Page
+ROS and PE tab ajax swirl loader and templates formatting
+Review user role access in project plan spreadsheet and add "Read" features to all user roles.
+ENHANCEMENT: Allow to choose what info to send to referral physician
+Add a new section in Reports for Health Maintenance.
+Dashboard - Popout right menu
+Fax out icon
+Visit summary hot-link directly to each section
+Fax sorting issue
+Make changes to Health Maintenance according to recommendations by Eugene.
+Add "Print Label" to each lab order in Plan.
+Enhance patient matching in lab result routing.
+Group appointment related items into one tab.
+Patient Portal: notify patients by email if a new message is waiting in their mailbox
+Patient Portal: Advance directives - disallow status change
+Patient Portal: allow patients to add their Allergies, and medications?
+Patient Portal: Past visits bug
+Keypad format bug in IE 8
+Change sorting order of Collection Date in Outside Labs of patient charts.
+ENHANCEMENT: add Assessment Summary to Assessment Tab to be included in Visit Summary
+Fix duplicate patient name check in Add Patient.
+Encounter: allow ability to modify Visit Summary on the fly
+Answer Emdeon cron question.
+Allow users to delete their own items in User Groups. Also disallow the functions be changed in the default user groups.
+Store DOB and Gender information in user_accounts table only if the users are not patients.
+POC items - 'Ordered by' should be Provider only
+vaccine code requirement
+Apply Kevin Luck scroll bar in Alerts section of encounter Summary.
+Encounter Summary Tab: Medications missing dosing info
+Differentiate Male & Female patient functions in the encounter.
+Provider Pin still shown once Encounter locked
+Patient Pending Status  
+If locked encounter remove links from Notice in Superbill tab
+Remove console.log from entire system
+Fix Redirect Loop
+Allow users to send a message to multiple recipients in Messaging.
+Check and fix Radiology not saving in POC.
+Patient Education Autocomplete not working
+dob missing from autocomplete search in fax area
+formatting issue on Outside Radiology page in Patient Chart
+Visit Summary Logo doesn't print as PDF
+Assign "Non Providers" user group to "[ ] Show All Appointments" in the Dashboards.
+patient portal - Enhance appointment request by patient users.
+Add scrollbar to Assessment tab. 
+CC tab: f/u redundant
+Fix past diagnosis not working in Assessment of the encounter.
+Link practice location setup message to practice location.
+Rx info missing in Visit Summary
+Pop-out optimizations for touch screen
+Fix Surgical Hx outcome box not saving issue.
+Link to patient chart from calendar.
+Fix insurance screen bug when patient has an ' in the name.
+Display ajax loader when Demographics page loads from Search Charts.
+Fix capitalization and punctuation in User Accounts.
+Patients: add new message from chart
+Standardize the use of mouse icon when hovering over clickable items.
+Add "Add New" and "Delete Selected" to Messages, Phone Calls, and Referrals in the patient chart.
+Add "Add New" to Supplies in the patient chart.
+Add "Add New" to Outside Radiology and Results sections in Radiology, Medical Information.
+Add "Add New" to Documents section of Labs, Medical Information.
+Standardize the use of expired password.
+Incorrect "Select photo "button look in IE9
+Add asterisk (*)  to all required fields found on all pages.
+Check to see if Vitals graphs are still having issues in IE9.
+Send a message to Front Desk when there is a patient appointment request.
+Error when trying to open an appointment
+Errors on the Practice Management page after sorting by Status
+Errors on the Fax page after selecting Archive Selected
+Incorrect Logo Image field on the Practice Profile page
+Check and fix the saving of DOB in Demographics when choosing home number "Not given". 
+Check lab error in 1.6 version.
+Patient Portal: show Outside labs 
+Switch viewer back to PDF format for Fax, Letters, and Letter Templates.
+Make all required field message style consistent.
+Next day schedule format bug
+BUG: Patient Demographics, Send Message
+Immunization table
+Patient Portal - Test and fix appointment requests not displayed for after 9 pm.
+Create a dashboard for each user role that cannot be turned off.
+Save the position of checkbox and DOB after clicking "Add" in Add New Patient form
+Duration of appointment dissappears when selecting appointment type
+The date and the names of day in the Calendar are incorrect on the patient portal
+Fix issue in Download sort link in Public Health Surveilllance display table.
+Check and fix any issue found in Broadcasting to patients.
+Show Subject instead of message body in Messages of Dashboard.
+Fix Download error found on Immunization Registries page in Reports.
+Fix column sorting in Orders page under Patients.
+Patient Portal - Enhance patient requested appointments.
+Enhancement Request: IPAD Application, Scheduling
+Superbill to include Insurance Info 
+Save message draft automatically if the user moves away from Inbox.
+Hover text color is not applied for buttons
+Design bug in Top Menu in IE9
+Patient portal - Fix the saving of attached files in Advanced Directives.
+Show "Page not found" when user is trying to reach page that doesn't exist.
+Some problems with Active link color 
+Change design of warning messages in Schedule
+Fix notification length on following pages.
+Apply correct style to Public Health Surveillance when selected.
+Check and fix sorting in Patient Reminders display table.

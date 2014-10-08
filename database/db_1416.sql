@@ -1,0 +1,1 @@
+ALTER TABLE `messaging_phone_calls` ADD `location_id` INT UNSIGNED NULL after `comment`; 

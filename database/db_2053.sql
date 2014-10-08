@@ -1,0 +1,1 @@
+ALTER TABLE `encounter_physical_exam_images` ADD `patient_id` INT NOT NULL DEFAULT '0';

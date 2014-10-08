@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1014" MadCap:lastWidth="939">
+    <head><title>
+			Nuance SpeechAnywhere (Bowser edition): Setting the language and topic
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere"><a href="../BrowserIntroduction/DANUBE_WELCOME_BROWSER.htm"><img src="../Resources/SpeechAnywhere_logo.png" /></a>
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_RECORD_BUTTON_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_SPEECH_ENABLE_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1>Setting the language and topic</h1>
+        <p>The language and topic properties are optional.</p>
+        <h2>Language</h2>
+        <p>You can specify the language to be used for speech recognition for each VUI&#160;form. Changing the language property after recording has been started for the first time  will not have an effect.</p>
+        <p>IETF language tags are used. The language subtag is mandatory and the region subtag is optional (for example, en-GB for British English and en-US for US English). Other subtags are not supported.</p>
+        <p>If your web page sets the relevant language using the <code>lang</code> or <code>xml:lang</code> attribute it is not necessary to configure the language here. If you configure a different language here, this configuration overrides the web page setting.</p>
+        <h2>Topic</h2>
+        <p>Based on the medical specialties your users work in, you can specify the topic (medical specialty) for each VUI form. Changing the topic property after recording has been started for the first time will not have an effect.</p>
+        <p>The following topics are supported:</p>
+        <ul style="list-style-type: square;">
+            <li>NUSA_topicGeneralMedicine&#160;- this is the default setting; if you do not specify a topic this topic is used.</li>
+            <li>NUSA_topicInternalMedicine </li>
+            <li>NUSA_topicSurgery </li>
+            <li>NUSA_topicMentalHealth </li>
+            <li>NUSA_topicNeurology</li>
+            <li>NUSA_topicCardiology</li>
+        </ul>
+        <h2>Procedure</h2>
+        <p>In the <code>NUSA_configure</code> function, set the variable <code>NUSA_language</code> as required.</p>
+        <p>In the <code>NUSA_configure</code> function, set the variable <code>NUSA_topic</code> as required.</p>
+        <p class="note"><b>Note:</b> These variables must be set before recording is started for the first time.</p>
+        <div id="navigationBar">
+            <div id="next"><a href="DANUBE_RECORD_BUTTON_BROWSER.htm">Next</a>
+            </div>
+            <div id="previous"><a href="DANUBE_SPEECH_ENABLE_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

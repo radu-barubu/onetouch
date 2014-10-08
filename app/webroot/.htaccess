@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^verify/(.*)$ verify.php?$1 [QSA,L]
+    RewriteRule ^tickets/(.*)$ tickets.php?$1 [QSA,L]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R]
+    RewriteBase /
+</IfModule>
+
+  # mod_expires & mod_headers
+<ifModule mod_expires.c>
+  ExpiresActive On
+  # 6 hrs
+  <filesMatch ".(xml|txt|css|js|jpg|jpeg|png|gif|swf|flv)$">
+    ExpiresDefault A21600
+  </FilesMatch>
+</IfModule>
+<ifModule mod_headers.c>
+  # 6 hrs
+  <filesMatch ".(xml|txt|css|js|jpg|jpeg|png|gif|swf|flv)$">
+    Header set Cache-Control "max-age=21600, proxy-revalidate"
+  </FilesMatch>
+</IfModule>

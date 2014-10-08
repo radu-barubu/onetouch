@@ -1,0 +1,8 @@
+Fix date validation in all reports.
+Fix invalid dates in Demographics.
+Only allow image files to be chosen for photos
+Fix image upload buttons for all iPad app pages
+Problem entering time on iPad
+Make an appointment on the iPad app
+Adjust the Work Schedule time settings.
+iPad click to upload causes the screen to change underneath

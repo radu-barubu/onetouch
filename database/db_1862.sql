@@ -1,0 +1,1 @@
+ALTER TABLE `encounter_chief_complaint` ADD `multiple_hpi_flag` TINYINT(1) NOT NULL DEFAULT '1'; 

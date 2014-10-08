@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2111" MadCap:lastWidth="939">
+    <head><title>
+			Nuance SpeechAnywhere (Browser edition): Release Notes for Beta 1
+		</title>
+        <link href="../Resources/Danube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Logos">
+            <div id="SpeechAnywhere">
+                <img src="../Resources/SpeechAnywhere_logo.png" />
+            </div>
+            <div id="Nuance"><a href="/"><img src="../Resources/NHDP_logo_web.png" /></a>
+            </div>
+        </div>
+        <div id="closeLogos">
+        </div>
+        <div id="navigationBar">
+            <div id="next">
+            </div>
+            <div id="previous"><a href="DANUBE_TECHNICAL_RESTRICTIONS_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+        <h1><a name="Top"></a>Release Notes for Nuance SpeechAnywhere Beta 1</h1>
+        <h2>Contents</h2>
+        <p class="compact"><a href="#Introduction">Introduction</a>
+        </p>
+        <p class="compact"><a href="#New_features">New features</a>
+        </p>
+        <p class="compact"><a href="#Interface_changes">Interface changes</a>
+        </p>
+        <p class="compact"><a href="#Integration_changes">Integration changes necessary</a>
+        </p>
+        <p class="compact"><a href="#Known_issues">Known issues</a>
+        </p>
+        <h2><a name="Introduction"></a>Introduction</h2>
+        <p>This interim release is to provide integrators with an updated version that contains all Nuance SpeechAnywhere Release 1 features. Please be aware that stabilization of these features is ongoing.</p>
+        <p class="note"><strong>Important:</strong> This release does not deliver the final Nuance SpeechAnywhere speech recognition quality. </p>
+        <p>With the release of Beta 1 the alpha version is no longer supported and the server has been switched to the new version.</p>
+        <p>For more information, browse this SDK documentation or see the end user documentation.</p>
+        <p><a href="#Top">Back to Top</a>
+        </p>
+        <h2><a name="New_features"></a>New features since the alpha release</h2>
+        <ul style="list-style-type: square;">
+            <li>Audio codec: Speex wideband has replaced PCM to save bandwidth.</li>
+            <li>The first version of the end user documentation.</li>
+            <li>Capitalization processing has been improved.</li>
+            <li>It is now possible to explicitly exclude user interface controls from being speech-enabled.</li>
+            <li>Additional voice commands:</li>
+        </ul>
+        <p class="indent1">Correction: <span class="command">scratch that</span></p>
+        <p class="indent1">Navigation: <span class="command">beginning of field</span>, <span class="command">first field</span>, <span class="command">last field</span>, etc.</p>
+        <p class="indent1">Advanced field navigation: <span class="command">go to &lt;field name&gt;</span></p>
+        <ul style="list-style-type: square;">
+            <li>Improved audio detection.</li>
+            <li>Collection of data to derive key performance indicators (KPIs) and speech recognition analysis</li>
+            <li>Speech-enabled controls are marked visually.</li>
+            <li>Multimodal input (voice, mouse, keyboard) handling has been improved.</li>
+            <li>The feedback bubble has been added.</li>
+            <li>The Recording toolbar has been improved.</li>
+            <li>Mac support has been improved.</li>
+        </ul>
+        <p><a href="#Top">Back to Top</a>
+        </p>
+        <h2><a name="Interface_changes"></a>Interface changes since the alpha release</h2>
+        <ul style="list-style-type: square;">
+            <li>Topic for VUI controllers (optional):  Can be used to associate a topic (area of medicine) per VUI form (speech-enabled UI view).</li>
+            <li>Language for VUI controllers (optional): Can be used to associate a specific language (speech recognition language) per VUI form (speech-enabled UI view).</li>
+            <li>The partner GUID and the license GUID are now be configured via cookie.</li>
+        </ul>
+        <p><a href="#Top">Back to Top</a>
+        </p>
+        <h2><a name="Integration_changes"></a>Integration changes necessary since the alpha release            <![CDATA[ ]]></h2>
+        <ul style="list-style-type: square;">
+            <li>The password parameter has been removed.</li>
+            <li>Our product name has changed to "Nuance SpeechAnywhere". This has resulted in a variety of API changes.</li>
+        </ul>
+        <p><a href="#Top">Back to Top</a>
+        </p>
+        <h2><a name="Known_issues"></a>Known issues in Nuance SpeechAnywhere Beta 1</h2>
+        <ul style="list-style-type: square;">
+            <li> In Internet Explorer the Nuance logo indicating that fields are speech-enabled does not display.</li>
+            <li>The Nuance logo in speech-enabled fields is covered when the field has a scroll bar. </li>
+            <li>Citrix is not yet fully supported. </li>
+            <li>In Microsoft Internet Explorer if the user pauses to wait for the recognized text to be displayed and then says <span class="command">new paragraph</span>, the text continues on the next line and no blank line is left.</li>
+            <li>It is not possible to start a speech recognition session for a user name that contains special characters. </li>
+            <li>There are problems with the recognition of voice commands.</li>
+            <li>There are problems with the recognition of advanced field navigation voice commands.</li>
+            <li>The feedback bubble might not display correctly in some situations. The feedback bubble volume meter sensitivity is not yet final.</li>
+            <li>In Microsoft Internet Explorer recording cannot be stopped from the feedback bubble.</li>
+        </ul>
+        <p><a href="#Top">Back to Top</a>
+        </p>
+        <h2>See also</h2>
+        <p class="compact2"><a href="DANUBE_RELEASE_BETA2_BROWSER.htm">Release Notes for Beta 2</a>
+        </p>
+        <p class="indent2"><a href="DANUBE_GLOSSARY_BROWSER.htm">Glossary</a>
+        </p>
+        <div id="navigationBar">
+            <div id="next">
+            </div>
+            <div id="previous"><a href="DANUBE_TECHNICAL_RESTRICTIONS_BROWSER.htm">Previous</a>
+            </div>
+        </div>
+        <div id="closeNavigationBar">
+        </div>
+    </body>
+</html>

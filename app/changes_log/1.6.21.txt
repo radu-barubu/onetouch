@@ -1,0 +1,10 @@
+Ability to print Outside Lab/Radiology/Procedures Rx from Encounter & patient chart
+Add Reviewed labs for Outside labs to visit summary
+Add option to display who scribed encounter for provider
+Allow generation of Specialist Specialty Report (to send back to PCP)
+Encounters page - show more search options
+Patient Portal: Create Administration Options for practice to define medical & surgeries favorites history
+Patient Portal: Simplify patient's ability to enter their information
+Allow provider to customize Encounter "Summary" tab
+Health Maintenance Flow Sheet feature
+Dosespot: Allow Prescribing doctor to assign person to Rx on their behalf

@@ -1,0 +1,161 @@
+.NUSA_focusedElement
+{
+	background: #CCFFCC;
+	color: #363636;
+}
+#NUSAI_Bubble_Container{
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 84px;
+    height : 44px;
+    z-Index : 9000;
+
+}
+#NUSAI_Bubble{
+	background-image: url(../img/dragon/SpeechBubble.png);
+	background-repeat:no-repeat; 
+	height: 32px;
+	width: 184px;	
+}
+
+#NUSAI_Bubble_Arrow_Top_Left {
+	width: 24px;	
+	height: 12px;
+	top:-10px;
+	left:15px;
+	position:relative;	
+	background-repeat:no-repeat; 
+	background-image: url(../img/dragon/Arrow_Top.png);
+}
+#NUSAI_Bubble_Button  { 
+	width: 24px;	
+	height: 27px;
+	top:2px;
+	left:15px;
+	position:absolute;	
+	background-repeat:no-repeat; 
+} 
+.NUSAI_Bubble_Button_On:hover { 
+	background-image:url(../img/dragon/SpeechBubble_MicOn_MouseOver.png);
+} 
+.NUSAI_Bubble_Button_On  { 
+	background-image: url(../img/dragon/SpeechBubble_MicOn.png);
+} 
+.NUSAI_Bubble_Button_Off:hover { 
+	background-image:url(../img/dragon/SpeechBubble_MicOff_MouseOver.png);
+} 
+.NUSAI_Bubble_Button_Off  { 
+	background-image: url(../img/dragon/SpeechBubble_MicOff.png);
+} 
+
+#NUSAI_Bubble_Flame {
+	width: 29px;	
+	height: 27px;
+	top:2px;
+	left:142px;
+	position:absolute;	
+	background-repeat:no-repeat; 
+}
+.NUSAI_Bubble_Flame_Busy {
+	background-image: url(../img/dragon/SpeechBubble_Flame_Busy.gif);
+}
+.NUSAI_Bubble_Flame_Idle {
+	background-image: url(../img/dragon/SpeechBubble_Flame_Normal.png);
+}
+.NUSAI_Bubble_VolumeSegment_Disabled{
+	background-repeat:no-repeat; 
+	background-image: url(../img/dragon/Volumebar_Disabled.png);
+}
+.NUSAI_Bubble_VolumeSegment_Green{
+	background-repeat:no-repeat; 
+	background-image: url(../img/dragon/Volumebar_Green.png);
+}
+.NUSAI_Bubble_VolumeSegment_Yellow{
+	background-repeat:no-repeat; 
+	background-image: url(../img/dragon/Volumebar_Yellow.png);
+}
+.NUSAI_Bubble_VolumeSegment_Red{
+	background-repeat:no-repeat; 
+	background-image: url(../img/dragon/Volumebar_Red.png);
+}
+#NUSAI_Bubble_VolumeSegment_1
+{
+	top:7px;
+	left:46px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_2
+{
+	top:7px;
+	left:55px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_3
+{
+	top:7px;
+	left:64px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_4
+{
+	top:7px;
+	left:73px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_5
+{
+	top:7px;
+	left:82px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_6
+{
+	top:7px;
+	left:91px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_7
+{
+	top:7px;
+	left:100px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_8
+{
+	top:7px;
+	left:109px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_9
+{
+	top:7px;
+	left:118px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}
+#NUSAI_Bubble_VolumeSegment_10
+{
+	top:7px;
+	left:127px;
+	position:absolute;	
+	width:7px; 
+	height: 17px; 
+}

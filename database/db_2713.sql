@@ -1,0 +1,1 @@
+ALTER TABLE `messaging_messages` ADD `phone_call_id` INT( 11 ) UNSIGNED NULL DEFAULT NULL AFTER `message_id`;

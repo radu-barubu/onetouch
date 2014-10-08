@@ -1,0 +1,1 @@
+ALTER TABLE `encounter_plan_referrals` ADD `refer_type` VARCHAR( 20 ) NOT NULL DEFAULT 'referred_to';
